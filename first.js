@@ -24,13 +24,17 @@
 		}
 	};
 	w.nob_m.common.readExtJs('https://nob-m.github.io/js/jquery.min.js', 'utf-8', function(){
-		$.ajax({
-			url: 'https://nob-m.github.io/bookmarklet/index.js',
-			dataType: 'script',
-			scriptCharset: 'utf-8',
-			error: function(data){
-				alert('データ読み込みに失敗しました。');
-			}
-		});
+		try{
+			$.ajax({
+				url: 'https://nob-m.github.io/bookmarklet/index.js',
+				dataType: 'script',
+				scriptCharset: 'utf-8',
+				error: function(data){
+					alert('データ読み込みに失敗しました。');
+				}
+			});
+		}catch(e){
+			alert('データ読み込みに失敗しました。');
+		};
 	});
 })();
