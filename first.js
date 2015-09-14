@@ -16,7 +16,7 @@
 				i.charset = c;
 			}
 			if(typeof f === 'function'){
-				i.onload = (function(){f();})();
+				i.onload = function(){f();};
 			}
 			d.getElementsByTagName('head')[0].appendChild(i);
 		}catch(e){
