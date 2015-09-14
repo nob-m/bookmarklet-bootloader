@@ -1,2 +1,4 @@
-var test = 'test';
-alert(test);
+$(function(){
+	var test = 'test';
+	alert(test);
+});
