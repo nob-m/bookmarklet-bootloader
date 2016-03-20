@@ -1,0 +1,23 @@
+.nob_m_body_add{
+	text-align: left;
+	padding: 5px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.nob_m_body_add hr{
+	display: block;
+}
+
+.nob_m_body_add .name_current_bookmarklet{
+	margin-left: 10px;
+}
+
+.nob_m_body_add iframe.localstorage{
+	width: 1px;
+	height: 1px;
+	border: 0px;
+	position: absolute;
+	left: -9999px;
+}
