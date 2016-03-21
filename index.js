@@ -4,9 +4,9 @@ $(function(){
 		'now': [],
 		'org': [
 			//ボタンtxt, js_url, 起動許可url
-			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain + 'bookmarklet/ScoreViewerForPopn22/main.js', 'p.eagate.573.jp/game/popn/lapistoria/'],
-			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain + 'bookmarklet/ScoreViewerForPopn22/main.js', 'popupopupopnp.com/'],
-//			['Follow Editor for beatmania IIDX 22 PENDUAL', nob_m.common.domain + 'bookmarklet/FollowEditorForIIDX22/main.js', 'p.eagate.573.jp/game/2dx/22/'],
+			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForPopn22/main.js', 'p.eagate.573.jp/game/popn/lapistoria/'],
+			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForPopn22/main.js', 'popupopupopnp.com/'],
+//			['Follow Editor for beatmania IIDX 22 PENDUAL', nob_m.common.domain.main + nob_m.common.dir.main + 'FollowEditorForIIDX22/main.js', 'p.eagate.573.jp/game/2dx/22/'],
 		],
 		'other': [
 			['Score Viewer for pop\'n music ラピストリア', 'http://p.eagate.573.jp/game/popn/lapistoria/p/']
@@ -27,7 +27,7 @@ $(function(){
 	var $content_org = $('.' + nob_m.common.class.prefix + nob_m.common.class.org);
 
 	//css read
-	var css_href = nob_m.common.domain + nob_m.common.dir + 'index.css';
+	var css_href = nob_m.common.domain.boot + nob_m.common.dir.boot + 'index.css';
 	if($('link[href="' + css_href + '"]').length === 0){
 		$('head').append($('<link />').attr({
 			rel: 'stylesheet',
