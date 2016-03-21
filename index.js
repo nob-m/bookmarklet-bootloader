@@ -20,8 +20,12 @@ $(function(){
 
 	//元のページに戻す処理
 	var bodyRestore = function($org, $add){
-		$add.fadeOut(speed_sec);
-		$org.fadeIn(speed_sec);
+		$add.fadeOut(speed_sec, function(){
+			$add.remove();
+		});
+		$org.fadeIn(speed_sec, function(){
+			$org.children().eq(0).unwrap();
+		});
 		$.noConflict(true);
 	};
 

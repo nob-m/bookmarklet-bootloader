@@ -2,9 +2,13 @@ $(function(){
 	var speed_sec = 500;
 	var $add = $('.' + nob_m.common.class.prefix + nob_m.common.class.add);
 	var $org = $('.' + nob_m.common.class.prefix + nob_m.common.class.org);
-	//bootloader close
-	$add.fadeOut(speed_sec);
-	$org.fadeIn(speed_sec);
+	//bootloader shutdown
+	$add.fadeOut(speed_sec, function(){
+		$add.remove();
+	});
+	$org.fadeIn(speed_sec, function(){
+		$org.children().eq(0).unwrap();
+	});
 	$.noConflict(true);
 
 	//main
