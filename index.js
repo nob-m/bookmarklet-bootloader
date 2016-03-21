@@ -5,13 +5,16 @@ $(function(){
 		'org': [
 			//ボタンtxt, js_url, 起動許可url
 //			['Follow Editor for beatmania IIDX 22 PENDUAL', nob_m.common.domain.main + nob_m.common.dir.main + 'FollowEditorForIIDX22/main.js', 'p.eagate.573.jp/game/2dx/22/'],
-			['SDVX IIIのスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/bluekingdragon/sdvx3.js', 'p.eagate.573.jp/game/sdvx/iii/p/'],
+			['SDVX IIIのスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/bluekingdragon/sdvx3.js', 'p.eagate.573.jp/game/sdvx/iii/'],
+			['Popreco', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/popreco/boot.js', 'p.eagate.573.jp/game/popn/eclale/'],
+			['Popreco', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/popreco/boot.js', 'p.eagate.573.jp/game/popn/lapistoria/'],
 			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForPopn22/main.js', 'p.eagate.573.jp/game/popn/lapistoria/'],
 			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForPopn22/main.js', 'popupopupopnp.com/']
 		],
 		'other': [
 			['SOUND VOLTEX III GRAVITY WARS', 'http://p.eagate.573.jp/game/sdvx/iii/p/'],
-			['Score Viewer for pop\'n music ラピストリア', 'http://p.eagate.573.jp/game/popn/lapistoria/p/']
+			['pop\'n music éclale', 'http://p.eagate.573.jp/game/popn/eclale/p/'],
+			['pop\'n music ラピストリア', 'http://p.eagate.573.jp/game/popn/lapistoria/p/']
 		]
 	};
 
