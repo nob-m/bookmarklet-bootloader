@@ -4,8 +4,14 @@
 		nob_m = {};
 	}
 	nob_m.common = {
-		domain: 'https://nob-m.github.io/',
-		dir: 'boot_bookmarklet/',
+		domain: {
+			boot: 'https://nob-m.github.io/',
+			main: 'http://nobuyukim.cs.land.to/'
+		},
+		dir: {
+			boot: 'bookmarklet-bootloader/',
+			main: 'bookmarklet/'
+		},
 		class: {
 			prefix: 'nob_m_body_',
 			org: 'org',
@@ -30,11 +36,11 @@
 			}
 		}
 	};
-	nob_m.common.readExtJs(nob_m.common.domain + '/js/jquery.min.js', 'utf-8', function(){
+	nob_m.common.readExtJs(nob_m.common.domain.boot + nob_m.common.dir.boot + 'jquery.min.js', 'utf-8', function(){
 		try{
 			$.support.cors = true;
 			$.ajax({
-				url: nob_m.common.domain + nob_m.common.dir + 'index.js',
+				url: nob_m.common.domain.boot + nob_m.common.dir.boot + 'index.js',
 				dataType: 'script',
 				scriptCharset: 'utf-8',
 				error: function(data){
