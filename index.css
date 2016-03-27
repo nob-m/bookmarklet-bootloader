@@ -8,6 +8,18 @@
 
 .nob_m_body_add hr{
 	display: block;
+	margin: 3px 0;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #000;
+	height: 1px;
+	clear: both;
+}
+
+.nob_m_body_add input{
+	border: 1px solid;
+	margin: 3px;
+	background-color: #ccc;
 }
 
 .nob_m_body_add .name_current_bookmarklet{
