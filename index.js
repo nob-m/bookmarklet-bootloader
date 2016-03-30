@@ -8,6 +8,7 @@ $(function(){
 			['SDVX IIIのスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/bluekingdragon/sdvx3.js', 'p.eagate.573.jp/game/sdvx/iii/', false],
 			['Popreco', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/popreco/boot.js', 'p.eagate.573.jp/game/popn/eclale/', false],
 			['Popreco', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/popreco/boot.js', 'p.eagate.573.jp/game/popn/lapistoria/p/playdata/mu_top.html', false],
+			['チュウニズムスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/ginjake/chunithm.js', 'https://chunithm-net.com/mobile/', false],
 			['Score Viewer for beatmania IIDX 23 copula', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForIIDX23/main.js', 'p.eagate.573.jp/game/2dx/23/', true],
 //			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForPopn22/main.js', 'p.eagate.573.jp/game/popn/lapistoria/', true],
 //			['Score Viewer for pop\'n music ラピストリア', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForPopn22/main.js', 'popupopupopnp.com/', true]
