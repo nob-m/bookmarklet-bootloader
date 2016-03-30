@@ -14,7 +14,8 @@ $(function(){
 			['beatmania IIDX 23 copula', 'http://p.eagate.573.jp/game/2dx/23/p/'],
 			['SOUND VOLTEX III GRAVITY WARS', 'http://p.eagate.573.jp/game/sdvx/iii/p/'],
 			['pop\'n music éclale', 'http://p.eagate.573.jp/game/popn/eclale/p/'],
-			['pop\'n music ラピストリア', 'http://p.eagate.573.jp/game/popn/lapistoria/p/']
+			['pop\'n music ラピストリア', 'http://p.eagate.573.jp/game/popn/lapistoria/p/'],
+			['CHUNITHM-NET', 'https://chunithm-net.com/']
 		]
 	};
 
