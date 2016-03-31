@@ -55,7 +55,7 @@ $(function(){
 		var $input = $('<input />').attr({
 			type: 'button',
 			value: '元のページに戻る'
-		}).on('click', function(){
+		}).addClass('button_return').on('click', function(){
 			bodyRestore($content_org, $content_add);
 		});
 		$content_add.append($input);

@@ -22,8 +22,11 @@
 	background-color: #ccc;
 }
 
+.nob_m_body_add .button_return{
+	margin-right: 10px;
+}
+
 .nob_m_body_add .name_current_bookmarklet{
-	margin-left: 10px;
 	display: inline-block;
 }
 
