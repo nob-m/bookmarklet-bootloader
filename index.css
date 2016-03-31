@@ -24,6 +24,7 @@
 
 .nob_m_body_add .name_current_bookmarklet{
 	margin-left: 10px;
+	display: inline-block;
 }
 
 .nob_m_body_add iframe.localstorage{
