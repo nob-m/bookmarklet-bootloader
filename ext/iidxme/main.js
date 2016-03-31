@@ -1,0 +1,1 @@
+javascript:(!function(){if(location.protocol==="https:"){alert("Can't load over https");return;}var s=document.createElement("script");s.id="iidxme";s.type="text/javascript";s.src="http://iidx.me/loader.js";document.head.appendChild(s);}());
