@@ -33,3 +33,13 @@
 	position: absolute;
 	left: -9999px;
 }
+
+.nob_m_body_main input.button_boot_main{
+	width: 300px;
+	max-width: 100%;
+}
+
+.nob_m_body_main input.button_boot_other{
+	width: 300px;
+	max-width: 100%;
+}

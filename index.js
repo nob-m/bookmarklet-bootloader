@@ -117,7 +117,7 @@ $(function(){
 					var $input = $('<input />').attr({
 						type: 'button',
 						value: list.other[i][0]
-					}).on('click', {url: list.other[i][1]}, function(event){
+					}).addClass('button_boot_other').on('click', {url: list.other[i][1]}, function(event){
 						window.location.href = event.data.url;
 					});
 					$('.' + nob_m.common.class.prefix + nob_m.common.class.main).append($input).append('<br />');
@@ -137,7 +137,7 @@ $(function(){
 					var $input = $('<input />').attr({
 						type: 'button',
 						value: list.now[i][0]
-					}).on('click', {url: list.now[i][1], flag: list.now[i][3]}, function(event){
+					}).addClass('button_boot_main').on('click', {url: list.now[i][1], flag: list.now[i][3]}, function(event){
 						if((typeof event.data.flag === 'undefined')||(event.data.flag !== true)){
 							bodyRestore(
 								$('.' + nob_m.common.class.prefix + nob_m.common.class.org),
