@@ -1,0 +1,1 @@
+(function(){if(location.href=='https://rev-www.ac.capcom.jp/profile'){if(confirm('REV. RankPoint Simulatorを更新します')){var elem=document.createElement('script');elem.src='https://revrank.maplia.jp/javascripts/data_import_all.js?'+new Date().getTime();document.getElementsByTagName('head')[0].appendChild(elem);}}else{alert('crossbeats REV. MY DATAのトップページから実行してください');}})()

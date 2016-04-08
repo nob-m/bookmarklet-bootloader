@@ -7,17 +7,24 @@ $(function(){
 			['Score Viewer for beatmania IIDX 23 copula', nob_m.common.domain.main + nob_m.common.dir.main + 'ScoreViewerForIIDX23/main.js', 'p.eagate.573.jp/game/2dx/23/', true],
 			['iidx.me*copula Score Table', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/iidxme/main.js', 'p.eagate.573.jp/game/2dx/23/', false],
 			['iidx.me*copula Score Table', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/iidxme/main.js', 'zasa.sakura.ne.jp/dp/', false],
-			['SDVX IIIのスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/bluekingdragon/sdvx3.js', 'p.eagate.573.jp/game/sdvx/iii/', false],
 			['Popreco', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/popreco/boot.js', 'p.eagate.573.jp/game/popn/eclale/', false],
 			['Popreco', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/popreco/boot.js', 'p.eagate.573.jp/game/popn/lapistoria/p/playdata/mu_top.html', false],
+			['SDVX IIIのスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/bluekingdragon/sdvx3.js', 'p.eagate.573.jp/game/sdvx/iii/', false],
+			['まいまいろぐ', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/maimai-log/main.js', 'maimai-net.com/maimai-mobile/', false],
 			['チュウニズムスコアツール', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/ginjake/chunithm.js', 'chunithm-net.com/mobile/', false],
+			['REV. RankPoint Simulator', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/revrank/all.js', 'rev-www.ac.capcom.jp/profile', false],
+			['REV. RankPoint Simulator', nob_m.common.domain.boot + nob_m.common.dir.boot + 'ext/revrank/one.js', 'rev-www.ac.capcom.jp/playdatamusic/', false]
 		],
 		'other': [
 			['beatmania IIDX 23 copula', 'http://p.eagate.573.jp/game/2dx/23/p/'],
-			['SOUND VOLTEX III GRAVITY WARS', 'http://p.eagate.573.jp/game/sdvx/iii/p/'],
 			['pop\'n music éclale', 'http://p.eagate.573.jp/game/popn/eclale/p/'],
 			['pop\'n music ラピストリア', 'http://p.eagate.573.jp/game/popn/lapistoria/p/'],
-			['CHUNITHM-NET', 'https://chunithm-net.com/']
+			['SOUND VOLTEX III GRAVITY WARS', 'http://p.eagate.573.jp/game/sdvx/iii/p/'],
+			['maimai PiNK', 'http://maimai.sega.jp/'],
+			['maimaiNET', 'https://maimai-net.com/maimai-mobile/'],
+			['CHUNITHM PLUS', 'http://chunithm.sega.jp/'],
+			['CHUNITHM-NET', 'https://chunithm-net.com/'],
+			['crossbeats REV.', 'http://www.capcom.co.jp/arcade/rev/']
 		]
 	};
 
