@@ -41,7 +41,7 @@ $(function(){
 
 	var setupMain = function(func){
 		//元の表示部分を保持する
-		if($('.' + nob_m.common.class.prefix + nob_m.common.class.org).length == 0){
+		if($('.' + nob_m.common.class.prefix + nob_m.common.class.org).length === 0){
 			$('body').wrapInner($('<div />').addClass(nob_m.common.class.prefix + nob_m.common.class.org));
 		}
 		var $content_org = $('.' + nob_m.common.class.prefix + nob_m.common.class.org);
@@ -76,7 +76,7 @@ $(function(){
 			}else{
 				alert('このブラウザはデータ保存に対応していません。');
 			}
-		}
+		};
 
 		//現在起動中のbookmarklet名を表示する部分
 		var $span = $('<span />').addClass('name_current_bookmarklet');
@@ -95,7 +95,7 @@ $(function(){
 		//メニュー表示
 		$content_org.fadeOut(speed_sec);
 		$content_add.fadeIn(speed_sec);
-	}
+	};
 
 	//起動処理
 	nob_m.readMainJs = function(url){
@@ -107,7 +107,7 @@ $(function(){
 				alert('データ読み込みに失敗しました。');
 			}
 		});
-	}
+	};
 
 	//起動bookmarklet選択
 	var url_tmp = window.location.href.replace('https://', '').replace('http://', '');
